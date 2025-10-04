@@ -4,93 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Cover</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Poppins", sans-serif;
-      background: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .book-cover {
-      width: 350px;
-      height: 500px;
-      background:url("Screenshot 2025-10-04 232556.png") center/cover no-repeat;
-      color: white;
-      padding: 30px 25px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-      border-radius: 10px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-    }
- .tagline {
-      font-size: 0.8rem;
-      letter-spacing: 2px;
-      color: #ffb84d;
-      text-transform: uppercase;
-    }
-
-    .title {
-      font-size: 2rem;
-      font-weight: 700;
-      line-height: 1.2;
-      margin: 15px 0;
-    }
-
-    .subtitle {
-      font-size: 0.95rem;
-      color:#ffb84d;
-      margin-bottom: 20px;
-    }
-
-    .edition {
-      font-size: 1rem;
-      font-weight: bold;
-      color: #4dffb8;
-      margin-bottom: 20px;
-    }
-
-    .author {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-top: auto;
-    }
-    .publisher {
-      font-size: 0.85rem;
-      text-align: right;
-      color: black;
-    }
-
-    /* Decorative abstract waves */
-    .wave {
-      position: absolute;
-      bottom: 100px;
-      left: 300px;
-      right: 30px;
-      height: 100px;
-      background: url("PHOTO.img1.PNG") center/cover no-repeat;
-      opacity: 0.3;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="book-cover">
-    <div>
-      <div class="tagline">W.W</div>
-      <div class="title"> COMMUNICATIVE ENGLISH</div>
-      <div class="subtitle">PARTS OF SPEECH</div>
-      <div class="edition"> CHAPTER 1 </div>
+  <div class="cover">
+    <div class="inner-box">
+      <h3 class="top">SEC Insights</h3>
+      <h1 class="title">FUNDAMENTALS OF<br>WEB APPLICATION<br>DEVELOPMENT</h1>
+      <p class="subtitle">Deep Dive in HTML, CSS & JS Basics<br>Top seller of 2025</p>
+
+      <div class="bottom">
+        <p class="special">SPECIAL EDITION</p>
+        <div class="line"></div>
+        <div class="bottom-row">
+          <p class="author">A. KARTHIK</p>
+          <img class="photo">
+          <p class="sec">SEC</p>
+        </div>
+      </div>
     </div>
-
-    <div class="author">By  LAKSHMI PRANAY N</div>
-    <div class="publisher"> SAVEETHA ENGINERING COLLEGE</div>
-
-    <div class="wave"></div>
   </div>
 </body>
 </html>
