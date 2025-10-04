@@ -51,7 +51,7 @@ Publish the website in the LocalHost.
         <p class="special">SPECIAL EDITION</p>
         <div class="line"></div>
         <div class="bottom-row">
-          <p class="author">A. KARTHIK</p>
+          <p class="author">N LAKSHMI PRANAY(25017706)</p>
           <img class="photo">
           <p class="sec">SEC</p>
         </div>
